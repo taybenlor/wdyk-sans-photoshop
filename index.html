@@ -1,0 +1,11 @@
+---
+layout: default
+title: Tom Preston-Werner
+---
+<article class="slides">
+{% for slide in site.slides %}
+  <section>
+    {{ slide.content }}
+  </section>
+{% endfor %}
+</article>
