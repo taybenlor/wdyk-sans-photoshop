@@ -380,12 +380,11 @@ code{
   font-family: "Monaco", monospace;
 }
 
-
-
 .pictos{
   font-family: "Pictos", wingdings;
   font-size: 30px;
   letter-spacing: 3px;
+  color: #46C9F9;
 }
 
 .pictos_friend{
@@ -669,7 +668,45 @@ aside.progress{
       background: hsl(5, 100%, 50%);
     }
 
+section.grid{
+  position: relative;
+}
 
+  section.grid h1{
+    position: relative;
+    top: -2px;
+  }
+
+section.grid::after{
+  content: '';
+  display: block;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 768px;
+
+  background:
+    -webkit-linear-gradient(
+      transparent 0px,
+      transparent 24px,
+      hsla(196, 100%, 50%, 0.5) 24px,
+      hsla(196, 100%, 50%, 0.5) 25px
+    ),
+    -webkit-linear-gradient(
+      0deg,
+      hsla(196, 100%, 50%, 0.3) 0%,
+      hsla(196, 100%, 50%, 0.3) 10%,
+      transparent 10%,
+      transparent 90%,
+      hsla(196, 100%, 50%, 0.3) 90%,
+      hsla(196, 100%, 50%, 0.3) 100%
+    );
+  background-size: 2% 25px, 12.5% 100%;
+
+  z-index: 10;
+}
 
 
 /* ==|== media queries ======================================================
