@@ -8,11 +8,11 @@
 
 @font-face {
     font-family: 'MishkaWeb';
-    src: url('mishka-webfont.eot');
-    src: url('mishka-webfont.eot?#iefix') format('embedded-opentype'),
-         url('mishka-webfont.woff') format('woff'),
-         url('mishka-webfont.ttf') format('truetype'),
-         url('mishka-webfont.svg#MishkaWebRegular') format('svg');
+    src: url('../fonts/mishka-webfont.eot');
+    src: url('../fonts/mishka-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mishka-webfont.woff') format('woff'),
+         url('../fonts/mishka-webfont.ttf') format('truetype'),
+         url('../fonts/mishka-webfont.svg#MishkaWebRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
