@@ -1,7 +1,7 @@
 @font-face{
         font-family: 'PictosWeb';
-        src: url('assets/fonts/pictos-web.eot');
-        src: local('☺'), url('assets/fonts/pictos-web.woff') format('woff'), url('assets/fonts/pictos-web.ttf') format('truetype'), url('assets/fonts/pictos-web.svg#webfontVZcfyX7f') format('svg');
+        src: url('../fonts/pictos-web.eot');
+        src: local('☺'), url('../fonts/pictos-web.woff') format('woff'), url('../fonts/pictos-web.ttf') format('truetype'), url('../fonts/pictos-web.svg#webfontVZcfyX7f') format('svg');
         font-weight: normal;
         font-style: normal;
 }
@@ -275,7 +275,7 @@ section{
 
   position: relative;
 
-  background: url('assets/images/background.png');
+  background: url('../images/background.png');
 
   border-bottom: 1px solid rgba(0,0,0,0.15);
   border-top: 1px solid rgba(255,255,255,0.8);
